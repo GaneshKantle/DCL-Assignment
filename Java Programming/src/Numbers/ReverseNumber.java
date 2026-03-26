@@ -20,3 +20,4 @@ public class ReverseNumber {
 }
 //Input: 1234 Output: 4321;
 //Input: 0045 Output: 73; Due to the octal number 4 & 5 is below 8
+//Write a program to check whether the given number is prime or not.

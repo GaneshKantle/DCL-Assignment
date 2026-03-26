@@ -102,6 +102,37 @@ package Numbers;
 //}
 
 //Write a program to print the average of first x palindrome numbers
+//public class Palindrome {
+//    public static int reverse(int num) {
+//        int rev = 0;
+//        while (num != 0) {
+//            int rem = num % 10;
+//            rev = (rev * 10) + rem;
+//            num = num / 10;
+//        }
+//        return rev;
+//    }
+//
+//    public static void main(String[] args) {
+//        int x = 50;
+//        int count = 0;
+//        float sum = 0;
+//        for (int k = 1; ; k++) {
+//            int num = k;
+//            int rev = reverse(num);
+//            if (rev == num) {
+//                sum += num;
+//                count++;
+//                if (count == x) {
+//                    System.out.println(sum / x);
+//                    break;
+//                }
+//            }
+//        }
+//    }
+//}
+
+//Palindrome pattern
 public class Palindrome {
     public static int reverse(int num) {
         int rev = 0;
@@ -112,22 +143,42 @@ public class Palindrome {
         }
         return rev;
     }
+//    public static void main(String[] args) {
+//        int k = 1;
+//        for (int i = 1; i <= 7; i++) {
+//            for (int j = 1; j <= i; j++ ) {
+//                while(!(reverse(k)==k))
+//                    k++;
+//            }
+//
+//            System.out.println();
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        int k = 1;
+//        for (int i = 1; i <= 7; i++) {
+//            for (int j = 1; j <= i; ) {
+//                if (k == reverse(k)) {
+//                    System.out.print(k + " ");
+//                    j++;
+//                }
+//                k++;
+//            }
+//            System.out.println();
+//        }
+//    }
 
     public static void main(String[] args) {
-        int x = 50;
-        int count = 0;
-        float sum = 0;
-        for (int k = 1; ; k++) {
-            int num = k;
-            int rev = reverse(num);
-            if (rev == num) {
-                sum += num;
-                count++;
-                if (count == x) {
-                    System.out.println(sum / x);
-                    break;
-                }
+        int k = 1;
+        for (int i = 1; i <= 7; i++) {
+            for (int j = 1; j <= i; j++ ) {
+
             }
+
+            System.out.println();
         }
     }
 }
+
+
