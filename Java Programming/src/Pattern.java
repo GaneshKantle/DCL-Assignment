@@ -1,4 +1,4 @@
-package samplepackage;
+// package samplepackage;
 
 //import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
 

@@ -61,12 +61,20 @@ public class PrimeNumber {
     }
 
     public static void main(String[] args) {
+        float sum =0;
+        int count=0;
         for (int k = 1; k <= 10000; k++) {
             int num = k;
             int res = prime(num);
             if (res == 2) {
-                System.out.println(num);
+                sum+=num;
+                count++;
+                if(count==50){
+                    System.out.println(sum/50);
+                    break;
+                }
             }
+
         }
     }
 }
