@@ -12,8 +12,10 @@ public class ReverseArray {
             res[k] = arr[i];
             k++;
         }
-        System.out.println…(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(res));
 //        System.out.println(res);
     }
 }
+
+
