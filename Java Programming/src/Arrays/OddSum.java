@@ -13,7 +13,8 @@ public class OddSum {
                 count++;
             }
         }
-        System.out.println("Count of the numbers: "+count);
-        System.out.println("Average is: "+sum/count);
+        System.out.println("Count of the numbers that are odd: "+count);
+        System.out.println("Sum of the numbers that are odd: "+sum);
+        System.out.println("Average of the numbers that are odd: "+sum/count);
     }
 }
