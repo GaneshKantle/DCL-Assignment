@@ -18,7 +18,7 @@ public class SameArray {
     }
 
     public static void main(String[] args) {
-//        int[] arr = {12, 23, 34, 45, 56, 67, 78, 89};
+//      int[] arr = {12, 23, 34, 45, 56, 67, 78, 89};
         int arr [] = {1,2,3,4,5};
         int brr [] = {1,2,3,4,5};
         boolean result = check(arr, brr);
@@ -26,3 +26,5 @@ public class SameArray {
         System.out.println(Arrays.equals(arr, brr));
     }
 }
+
+

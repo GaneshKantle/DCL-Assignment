@@ -62,3 +62,4 @@ package Arrays;
 //
 //}
 
+// The Time Complexity of Linear Search Algorithm is Big(n)
