@@ -24,7 +24,7 @@ public class MergeSort {
 		
 	}
 	
-	
+	//merge sort  Divide and conquer
 	public static int [] merge(int [] arr1, int [] arr2, int[] res) {
 		
 		int i = 0;
