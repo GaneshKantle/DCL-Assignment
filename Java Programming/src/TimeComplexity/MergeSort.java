@@ -58,9 +58,7 @@ public class MergeSort {
 	public static void main(String[] args) {
 		int [] arr = {32,18,17,15,6,4,5,2};
 		int [] res = divide(arr);
-		System.out.println(Arrays.toString(res));
+//		System.out.println(Arrays.toString(res));
 		
 	}
-
-}
 }
