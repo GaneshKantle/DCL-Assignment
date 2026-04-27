@@ -5,17 +5,17 @@ package Arrays;
 public class BinarySearchAlog {
     public static int check(int[] arr) {
         int start = 0;
-        int end = arr.length-1;
+        int end = arr.length - 1;
         int key = 6;
 
         while (start <= end) {
-        int mid = (start + end) / 2;
+            int mid = (start + end) / 2;
             if (arr[mid] == key) {
                 return mid;
             } else if (key < arr[mid]) {
-                end = start + 1;
+                end = mid - 1;
             } else {
-                start = mid - 1;
+                start = mid + 1;
             }
         }
         return -1;
