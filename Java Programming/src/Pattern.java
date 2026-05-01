@@ -502,7 +502,7 @@ public class Pattern {
 
 ////.............................................................................................................
 
-/// 		//CROSS DIAGONAL or COMMON SUM DIAGONAL
+///        //CROSS DIAGONAL or COMMON SUM DIAGONAL
 //		System.out.println();
 //		for (int i = 1; i <= 7; i++) {
 //			for (int j = 1; j <= 7; j++) {
@@ -1238,7 +1238,7 @@ public class Pattern {
 //                }
 ////				else if(j==4){
 ////					System.out.println(" "+" ");
-////				}
+////                }
 //                else {
 //                    System.out.print(" " + " ");
 //                }
@@ -1246,25 +1246,38 @@ public class Pattern {
 //            System.out.println();
 //        }
 //
-        int r = 5;
+//        int r = 5;
+//
+//       for(int i=1; i<=r; i++){
+//           for(int j=1; j<=i; j++){
+//               System.out.print(j+" ");
+//           }
+//           for(int j=1; j<=r-i; j++){
+//               System.out.print(i+" ");
+//           }
+//           for(int j=1; j<=r-i; j++){
+//               System.out.print(i+" ");
+//           }
+//           for(int j=i+1; j>=1; j--){
+//               System.out.print(j+" ");
+//           }
+//           System.out.println();
+//       }
 
-       for(int i=1; i<=r; i++){
-           for(int j=1; j<=i; j++){
-               System.out.print(j+" ");
-           }
-           for(int j=1; j<=r-i; j++){
-               System.out.print(i+" ");
-           }
-           for(int j=1; j<=r-i; j++){
-               System.out.print(i+" ");
-           }
-           for(int j=i+1; j>=1; j--){
-               System.out.print(j+" ");
-           }
-           System.out.println();
-       }
+        System.out.println("..................................");
+        int n = 4;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n-i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; k++) {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
 
 
+        System.out.println("..................................");
 
 
     }
