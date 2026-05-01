@@ -34,7 +34,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			ps.executeUpdate();
 
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			System.out.println("Failed to add the data");
 		}
@@ -63,7 +62,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			}
 
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			System.out.println("Failed to fetch the data");
 		}
@@ -94,7 +92,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			}
 
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			System.out.println("Failed to fetch the data");
 		}
@@ -126,7 +123,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			}
 
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			System.out.println("Failed to fetch the data");
 		}
@@ -177,7 +173,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			}
 
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			System.out.println("Failed to fetch the data");
 		}

@@ -5,6 +5,7 @@ import java.util.List;
 import com.empapp.dao.DeptDAO;
 import com.empapp.dto.Dept;
 import com.empapp.utility.Connector;
+import java.sql.*;
 
 public class DeptDAOImpl implements DeptDAO {
 	
@@ -16,7 +17,15 @@ public class DeptDAOImpl implements DeptDAO {
 
 	@Override
 	public void addDept(Dept d) {
-		
+		String sql = "INSERT INTO dept (dno, dname, dloc) VALUES (?, ?, ?)";
+		try {
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setInt(1, d.getDno());
+			ps.setString(2, d.getDname());
+			ps.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Override
