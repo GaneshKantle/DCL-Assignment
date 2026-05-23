@@ -1,0 +1,101 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.container {
+    background-color: beige;
+    color: rgb(109, 96, 96);
+    height: 100vh;
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        height: 10vh;
+        align-items: center;
+
+        .logo a{
+            color:darkgoldenrod;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .items {
+            display: flex;
+            list-style: none;
+            font-size: 18px;
+            gap: 20px;
+            text-decoration: none;
+            /* color: white; */
+        }
+    }
+
+    .main {
+        display: flex;
+        height: 80vh;
+        align-items: center;
+        justify-content: center;
+        .left {
+            /* border: 1px solid red; */
+            /* padding-right: 20px; */
+            width: 40%;
+
+            span{
+                color: darkgoldenrod;
+                text-transform: uppercase;
+            }
+            h2 {
+                font-size: 25p;
+                padding-top: 10px;
+            }
+
+            h1 {
+                font-size: 22px;
+                padding-top: 10px;
+            }
+
+            h3 {
+                font-size: 20px;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 18px;
+                text-align: justify;
+                padding-top: 10px;
+                width: 70%;
+            }
+            a i{
+                text-decoration: none;
+                color: rgb(109, 96, 96)
+            }
+            a{
+                text-decoration: none;
+            }
+            .buttons{
+                /* display: flex; */
+                padding-right: 15px;
+                
+                button{
+                    border: 1px solid rgb(109, 96, 96);
+                    border-radius: 10px;
+                    background-color: beige;
+                    text-decoration: none;
+                    color: rgb(109, 96, 96);
+                    padding: 10px;
+                }
+            }
+            .social-media a{
+                font-size: 30px;
+                /* padding: 10px; */
+
+            }
+        }
+        .right img{
+            width: 32   0px;
+            height: 450px;
+            border-radius: 20px;
+        }
+    }
+}

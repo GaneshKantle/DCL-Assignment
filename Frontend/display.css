@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-transform: capitalize;
+    background-color: antiquewhite;
+    height: 10vh;
+    align-items: center;
+    .navbar{
+        display: flex;
+        gap: 40px;
+    }
+    .btns{
+        display: flex;
+        gap: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+}

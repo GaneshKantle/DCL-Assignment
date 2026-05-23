@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .img2 {
+        border: 10px solid beige;
+    }
+
+    .img1{
+        position: absolute;
+        border: 8px solid beige;
+        top: 150px;
+        left: 300px;
+    }
+
+    .img3{
+        position: absolute;
+        border: 8px solid beige;
+        top: 280px;
+        left: 290px;
+    }
+
+}

@@ -1,0 +1,66 @@
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.iml
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+dist/
+build/
+.env
+
+# ========================
+# Java / Maven / Gradle
+# ========================
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+venv/
+env/
+
+# ========================
+# Git (nested repos fix)
+# ========================
+**/.git
+
+# ========================
+# Large / unnecessary files
+# ========================
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+
+# ========================
+# Project junk (from your repo)
+# ========================
+Other/Java Pre-Defined Classes/
+Source Codes/
+Certificates/
+Courses/
+Internship Assignments/

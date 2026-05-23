@@ -1,0 +1,26 @@
+
+div{
+    background-color:beige;
+    text-align: center;
+h1{
+    font-size: 50px;
+    /* background-color:aqua; */
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    height: 20%;
+    width: 20%;
+    /* border-radius: 50%; */
+}
+
+span{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+}
