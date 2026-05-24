@@ -1,8 +1,9 @@
 package com.empapp.dao;
 
+import com.empapp.dto.Dept;
 import java.util.List;
 
-import com.empapp.dto.Dept;
+//Nothing
 
 public interface DeptDAO {
 
