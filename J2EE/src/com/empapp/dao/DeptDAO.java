@@ -4,6 +4,7 @@ import com.empapp.dto.Dept;
 import java.util.List;
 
 //Nothing
+//Nothing
 
 public interface DeptDAO {
 
